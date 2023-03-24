@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1F2F3F"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_marginTop="150dp"
+    android:src="@drawable/smartphone"
+    android:layout_width="120dp"
+    android:layout_height="130dp"/>
+    <TextView
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Let's Get Started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Email/Mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:textCursorDrawable="@drawable/cursor_custom"
+        android:textColor="@color/white"
+        android:textColorHint="#777B83"
+        android:paddingStart="10dp"
+        android:hint="Enter Email or Mobile Number"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/log_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <TextView
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:textCursorDrawable="@drawable/cursor_custom"
+        android:textColor="@color/white"
+        android:hint="Password"
+        android:textColorHint="#777B83"
+        android:paddingStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/log_back"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="Login"
+        android:backgroundTint="#19232D"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:textColor="@color/white"
+            android:buttonTint="#3842FB"
+            android:text="I have read and understood the Terms and Privacy Policy"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+           android:layout_alignParentEnd="true"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="Register"
+            android:backgroundTint="#19232D"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+    <TextView
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Forgot Password"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
